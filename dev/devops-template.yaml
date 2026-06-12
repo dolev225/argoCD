@@ -26,7 +26,7 @@ spec:
   selector: 
     matchLabels:
       app: test-2
-  replicas: 5   #from values
+  replicas: 3   #from values
   template:
     metadata:
       labels:
@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: test-2 #from values
-        image: dolev1234/test-2:8
+        image: dolev1234/test-2:1
         ports:
         - containerPort: 8000
 ---
