@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: test-2 #from values
-        image: dolev1234/test-2:2
+        image: dolev1234/test-2:1
         ports:
         - containerPort: 8000
 ---
